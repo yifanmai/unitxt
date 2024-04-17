@@ -8,7 +8,7 @@ Running Unitxt with HELM
    :width: 75%
    :align: center
 
-Unitxt can be integrated with HELM, enabling you to select and evaluate models from the extensive HELM models catalog with data recipes created by Unitxt.
+Unitxt can be integrated with :ref:`HELM <https://github.com/stanford-crfm/helm/>`, enabling you to select and evaluate models from the extensive HELM models catalog with data recipes created by Unitxt.
 
 First, install HELM from the source repository (this is necessary until the next HELM release is available):
 
@@ -23,7 +23,7 @@ Next, define your preferred Unitxt recipe:
 
     recipe="card=cards.wnli,template=templates.classification.multi_class.relation.default"
 
-If you're unsure about your choice, you can use the [Explore Unitxt](https://unitxt.readthedocs.io/en/latest/docs/demo.html) tool for an interactive recipe exploration UI. After making your selection, click on Generate Prompts, and then click on the Code tab. You will see a code snippet such as the following:
+If you're unsure about your choice, you can use the :ref:`Explore Unitxt <demo>` tool for an interactive recipe exploration UI. After making your selection, click on Generate Prompts, and then click on the Code tab. You will see a code snippet such as the following:
 
 .. code-block:: python
 
